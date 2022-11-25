@@ -1,0 +1,17 @@
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn{
+    font-size: large;
+    font-weight: bold;
+    color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 16px;
+    cursor: pointer;
+    border-color: blueviolet;
+    
+}
