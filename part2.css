@@ -15,3 +15,36 @@
     border-color: blueviolet;
     
 }
+#form{  
+    visibility: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+#form h4{
+    padding-top: 10px;
+    padding-left: 150px;
+
+    
+}
+.form-input{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.form-input input{
+    margin-top: 5px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    padding: 8px;
+}
+#form button{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 5px;
+    margin-left: 88%;
+    cursor: pointer;
+}
